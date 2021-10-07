@@ -1,0 +1,94 @@
+         w _FP_BASE_
+00000000 t exception_vector	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:33
+00000040 t exception_handler	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:48
+00000040 t exception_vector_end	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:48
+0000004c t ISR_TABLE	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:48
+00000064 t OS_Trap_PTE_Not_Present	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:92
+00000064 t OS_Trap_TLB_Fill	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:92
+00000064 t OS_Trap_TLB_Misc	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:92
+00000064 t OS_Trap_TLB_VLPT_Miss	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:92
+000000a6 t OS_Trap_Machine_Error	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:97
+000000ea t OS_Trap_Debug_Related	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:102
+0000012e t OS_Trap_General_Exception	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:107
+00000172 t OS_Trap_Syscall	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:112
+000001e0 t OS_Trap_Interrupt_HW0	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:118
+00000218 t common_ISR_wrapper	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:126
+000002b6 t OS_Trap_Interrupt_HW1	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:138
+000002ee t OS_Trap_Interrupt_HW2	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:146
+000002f6 t OS_Trap_Interrupt_HW3	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:151
+000002fe t OS_Trap_Interrupt_HW4	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:156
+00000306 t OS_Trap_Interrupt_HW5	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:161
+0000030e t OS_Trap_SWI	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:166
+00000378 T _start	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:185
+00000384 t delay_loop	D:\MP2019\HW-ssss\HW_sssss\Debug/crt0.S:190
+000003e8 t Default_Handler	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:17
+000003e8 W HW2_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:18
+000003e8 W HW3_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:18
+000003e8 W HW4_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:18
+000003e8 W HW5_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:18
+000003e8 W error_exception_handler	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:18
+000003e8 W tlb_exception_handler	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:18
+000004e4 T __null_function	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:34
+000004f8 T __c_init	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:36
+00000578 T __cpu_init	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:61
+000005d4 T __init	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-default.c:82
+000005fc T __mem_pre_c_init	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-soc.c:19
+00000610 T __soc_init	D:\MP2019\HW-ssss\HW_sssss\Debug/../init-soc.c:28
+00000670 T initIntr	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:10
+0000068c T clear_swi	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:20
+000006b8 T syscall_handler	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:56
+00000700 T HW0_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:65
+0000077c T HW1_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:86
+000007f8 T SW0_ISR	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:101
+0000081c T GIE_ENABLE	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:107
+00000838 T GIE_DISABLE	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:113
+00000854 T gen_swi	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:120
+00000890 T delay1	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:27
+000008d4 T InitialLCD	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:31
+00000910 T KeyScan	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:38
+00000a4c T WriteString	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:58
+00000a98 T gotoxy	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:64
+00000af0 T IntInitial	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:71
+00000b18 T Timer0_Initial	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:76
+00000bd0 T Timer1_Initial	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:85
+00000c78 T HW_TIMER0_routine	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:96
+00001244 T HW_TIMER1_routine	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:225
+0000128c T note_translate	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:233
+000012cc T PWM_Initial	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:239
+0000130c T timer_delay	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:244
+000013b0 T timer_initialize	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:254
+00001404 T CheckBusy	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:261
+000014cc T WriteData	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:281
+0000154c T WriteIns	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:291
+000015c8 T InitialRTC	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:302
+00001624 T main	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:311
+0000195c T memcpy
+00001990 T memset
+000019c4 T srand
+000019d8 T rand
+00001a2c R _global_impure_ptr
+00001a34 A __data_lmastart
+00100000 D __data_start
+00100000 D note	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:17
+00100040 D song	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:18
+0010005c D Ass	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:19
+00100080 d impure_data
+001004a8 G g_nIntCount	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:4
+001004ac G i	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:23
+001004b0 G sum	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:25
+001004b4 G _impure_ptr
+001004b8 G LED	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:95
+001004ba G Key	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:16
+001004bb S KeyIn	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:7
+001004bb A __bss_start
+001004bb A _edata
+001004bc S temp	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:7
+001004c0 V _SDA_BASE_
+001004c0 S trigger	D:\MP2019\HW-ssss\HW_sssss\Debug/../interrupt.c:3
+001004c4 s cnt.1450
+001004c8 S n	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:26
+001004cc B temp2	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:22
+0010065c B temp1	D:\MP2019\HW-ssss\HW_sssss\Debug/../main.c:21
+001007ec A _end
+001007ec A _lmaend
+00102000 A _stack
